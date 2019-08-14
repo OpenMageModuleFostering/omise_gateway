@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
-    "description": "Omise is the official payment extension which provides support for Omise payment gateway for store builders.",
+    "description": "Start accepting Omise Payment Gateway with your magento store now.",
     "authors": [
     {
         "name": "Omise",
