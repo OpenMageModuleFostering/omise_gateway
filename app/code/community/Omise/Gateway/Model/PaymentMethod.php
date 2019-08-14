@@ -242,14 +242,14 @@ class Omise_Gateway_Model_PaymentMethod extends Omise_Gateway_Model_Payment
 
         if (is_array($data)) {
             if (! isset($data['omise_token'])) {
-                Mage::throwException(Mage::helper('payment')->__('Cannot retrieve your credit card information. Please make sure that you put a proper card information or contact our support team if you have any questions.'));
+                Mage::throwException(Mage::helper('payment')->__('Need Omise\'s keys'));
             }
 
             Mage::log('Data that assign is Array');
             $this->getInfoInstance()->setAdditionalInformation('omise_token', $data['omise_token']);
         } elseif ($data instanceof Varien_Object) {
             if (! $data->getData('omise_token')) {
-                Mage::throwException(Mage::helper('payment')->__('Cannot retrieve your credit card information. Please make sure that you put a proper card information or contact our support team if you have any questions.'));
+                Mage::throwException(Mage::helper('payment')->__('Need Omise\'s keys'));
             }
 
             Mage::log('Data that assign is Object');
@@ -318,13 +318,5 @@ class Omise_Gateway_Model_PaymentMethod extends Omise_Gateway_Model_Payment
                 '_query'  => $params
             )
         );
-    }
-
-    /**
-     * @return bool
-     */
-    public function isOscSupportEnabled()
-    {
-        return Mage::getStoreConfig('payment/omise_gateway/osc_support') ? true : false;
     }
 }
