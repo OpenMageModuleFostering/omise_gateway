@@ -14,7 +14,7 @@
     -->
     <modules>
         <Omise_Gateway>
-            <version>1.11.0</version>
+            <version>1.12.0</version>
         </Omise_Gateway>
     </modules>
 
@@ -108,6 +108,7 @@
                 <model>omise_gateway/paymentMethod</model>
                 <cctypes>VI,MC</cctypes>
                 <title>Credit Card (Powered by Omise)</title>
+                <osc_support>0</osc_support>
             </omise_gateway>
 
             <omise_offsite_internet_banking>
