@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Omise_Gateway",
+    "type": "magento-module",
+    "license": "MIT-License",
+    "homepage": "",
+    "description": "Omise is the official payment extension which provides support for Omise payment gateway for store builders.",
+    "authors": [
+    {
+        "name": "Omise",
+        "email": "apps@omise.co"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
