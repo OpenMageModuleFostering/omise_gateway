@@ -14,7 +14,7 @@
     -->
     <modules>
         <Omise_Gateway>
-            <version>1.10.0</version>
+            <version>1.11.0</version>
         </Omise_Gateway>
     </modules>
 
@@ -113,7 +113,7 @@
             <omise_offsite_internet_banking>
                 <active>0</active>
                 <payment_action>authorize_capture</payment_action>
-                <model>omise_gateway/OffsiteInternetBankingPayment</model>
+                <model>omise_gateway/Offsiteinternetbankingpayment</model>
                 <title>Internet Banking</title>
             </omise_offsite_internet_banking>
         </payment>
