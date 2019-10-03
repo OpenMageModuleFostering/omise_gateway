@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/Omise_Gateway",
+    "name": "openmage-module-fostering\/omise_gateway",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
