@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Omise_Gateway",
+    "name": "OpenMageModuleFostering\/Omise_Gateway",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
     "description": "Start accepting Omise Payment Gateway with your magento store now.",
     "authors": [
-    {
-        "name": "Omise",
-        "email": "apps@omise.co"
-    }
-],
+        {
+            "name": "Omise",
+            "email": "apps@omise.co"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
